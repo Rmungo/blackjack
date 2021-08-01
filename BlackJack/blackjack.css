@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+  }
+  h1 {
+    color: goldenrod; 
+    text-shadow: 2px 3px 3px black;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    text-align: center;
+  }
+  
+  #front {
+    border: 3px solid red; 
+    position: relative;
+    top: 20vh;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  button {
+    color: #016f32 ;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    font-weight: bold; 
+    border: none;
+    border-radius: 2px;
+    clear: both;
+    margin: 3px;
+  }
+  
+  #card-btn {
+    position: relative;
+    right: 2px;
+  }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack App</title>
+    <link rel='stylesheet' href='blackjack.css'>
+    <script type="text/javascript" src="blackjack.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body onload='setUp()'>
+    <div id='front'>
+    <h1> Blackjack </h1>
+    <p id ='message-el'> Want to play a round? </p>
+    <p id ='cards-el'> Cards: </p>
+    <p id='sum-el'> Total: </p>
+      <button id='srt-btn' onclick='startGame()'>Start Game</button>
+     <br/>
+        <button onclick='newCard()'id='card-btn' onclick='start()'>New Card</button>
+      <button onclick='refresh()'id='clear-btn'>refresh</button>
+    </div>
+    </body>
+    
+</html>
